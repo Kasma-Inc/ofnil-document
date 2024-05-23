@@ -1,0 +1,13 @@
+{
+  "graph-analysis-project": "图可视分析",
+  "create-graph-analysis-project": "创建项目",
+  "overview": "分析概览",
+  "appearance": "外观配置",
+  "data-transform": "数据转换",
+  "components": "组件配置",
+  "layout": "布局配置",
+  "query-filter": "查询分析",
+  "graph-algorithm": "图算法",
+  "action-history": "操作历史",
+  "data-format": "数据格式"
+}

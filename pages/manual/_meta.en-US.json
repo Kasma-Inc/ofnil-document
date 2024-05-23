@@ -1,0 +1,9 @@
+{
+  "datasource": "Data Source",
+  "stage": "Stage",
+  "analysis": "Analysis",
+  "workflow": "Workflow",
+  "query-analysis": "Query Analysis",
+  "graph-analysis": "Graph Analysis",
+  "dashboard-report": "Dashboard & Report"
+}
