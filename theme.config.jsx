@@ -3,7 +3,7 @@ export default {
     { locale: 'en-US', text: 'English' },
     { locale: 'zh-CN', text: '中文' },
   ],
-  docsRepositoryBase: 'https://github.com/Kasma-Inc/ofnil-document',
+  docsRepositoryBase: 'https://github.com/Kasma-Inc/ofnil-document/tree/main/',
   logo: (
     <>
       <svg
@@ -38,9 +38,7 @@ export default {
   footer: {
     text: (
       <div className="flex w-full flex-col items-center sm:items-start">
-        <p className="mt-6 text-xs">
-          © {new Date().getFullYear()} Ofnil.
-        </p>
+        <p className="mt-6 text-xs">© {new Date().getFullYear()} Ofnil.</p>
       </div>
     ),
   },
