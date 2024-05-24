@@ -1,0 +1,30 @@
+name: YunXiao Pipline
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment'
+        required: true
+        default: 'development'
+        type: choice
+        options:
+          - production
+          - development
+      debug:
+        description: 'Debug'
+        required: true
+        default: false
+        type: boolean
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ github.event.inputs.environment }}
+    defaults:
+      run:
+        shell: bash
+      - name: Trigger Pipline
+        run: |
+          curl --header "Content-Type: application/json" --request POST --data "{\"branch\":\"${{ github.ref_name }}\"}" ${{ vars.YUNXIAO_WEBHOOK }}
