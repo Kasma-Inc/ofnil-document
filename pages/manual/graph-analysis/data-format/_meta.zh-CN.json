@@ -1,6 +1,6 @@
 {
   "graph-json": "Ofnil Graph JSON",
-  "graph-csv": "Ofnil Graph CSV",
+  "graph-csv": "Ofnil Graph Edge CSV",
   "gremlin-csv": "Gremlin CSV",
   "gexf": "GEXF"
 }
