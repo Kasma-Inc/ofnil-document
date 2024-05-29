@@ -1,9 +1,9 @@
 {
   "datasource": "数据源",
   "stage": "暂存区",
-  "analysis": "分析",
   "workflow": "工作流",
   "query-analysis": "查询分析",
   "graph-analysis": "图可视分析",
-  "dashboard-report": "看板报表"
+  "dashboard-report": "看板报表",
+  "workspace": "工作空间"
 }
