@@ -1,8 +1,8 @@
 export default {
-  i18n: [
-    { locale: 'en-US', text: 'English' },
-    { locale: 'zh-CN', text: '中文' },
-  ],
+  // i18n: [
+  //   { locale: 'en-US', text: 'English' },
+  //   { locale: 'zh-CN', text: '中文' },
+  // ],
   docsRepositoryBase: 'https://github.com/Kasma-Inc/ofnil-document/tree/main/',
   logo: (
     <>
